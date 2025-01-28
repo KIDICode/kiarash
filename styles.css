@@ -1,0 +1,120 @@
+/* تنظیمات عمومی صفحه */
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* طراحی کل صفحه به دو بخش */
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* بخش کناری (سمت راست) */
+.sidebar {
+    width: 30%;
+    background-color: #f4a900;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* تصویر پروفایل */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 20px auto;
+}
+
+/* استایل اطلاعات شخصی */
+.sidebar h2 {
+    font-size: 22px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.sidebar .contact-info {
+    text-align: right;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+.sidebar .contact-info p {
+    margin: 5px 0;
+}
+
+/* استایل بخش اصلی محتوا */
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+/* استایل هر بخش */
+.section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border-right: 5px solid #f4a900;
+}
+
+.section h3 {
+    background-color: #666;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* مهارت‌ها */
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.skill .progress {
+    background-color: #f4a900;
+    height: 10px;
+    border-radius: 5px;
+}
+
+/* استایل لینک شبکه‌های اجتماعی */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    background-color: #222;
+}
